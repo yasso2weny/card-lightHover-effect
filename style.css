@@ -74,9 +74,8 @@ body {
 .card > .card-content {
   background-color: var(--card-clr);
   border-radius: inherit;
-  height: calc(100% - 2px);
-  margin: 1px;
   position: relative;
-  width: calc(100% - 2px);
   z-index: 2;
+  position: absolute;
+  inset: 1px;
 }
